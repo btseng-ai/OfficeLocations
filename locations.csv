@@ -1,6 +1,6 @@
 Office,Location,Address Line 1,Address Line 2,Lat,Lng,FloorplanURL
 LJA Engineering,ALIC,1220 North Texas Blvd,Suite 4,27.761802,-98.064354,https://ljaeng.sharepoint.com/:b:/s/Floorplans/IQCpcVpirpFaSa9ixlF5zSz9AVLrXaNw8snvVhBF9e8Y6xo?e=gZ3cUc
-LJA Engineering,ALPH,299 South Main St,Suite A,34.05270004,-84.30308533,https://ljaeng.sharepoint.com/:b:/s/Floorplans/IQAe45xQGzGXQYAZvexrmTKKAWWHz99lzJh2OK3DcSgTGTY?e=MUQdLn
+LJA Engineering,ALPH,299 South Main St,Suite A,34.0527000427246,-84.3030853271484,https://ljaeng.sharepoint.com/:b:/s/Floorplans/IQAe45xQGzGXQYAZvexrmTKKAWWHz99lzJh2OK3DcSgTGTY?e=MUQdLn
 LJA Engineering,ALTA,220 E Central Pkwy,Suite 1010,28.66921616,-81.38252258,https://ljaeng.sharepoint.com/:b:/s/Floorplans/IQCytkH6tWYnQq-hC14TbYP5AapQqyLyd1kV9K6tiJrvFZE?e=TSoFNk
 LJA Engineering,ARLI,1905 Ascension Blvd,Suite 120,32.77236557,-97.08263397,https://ljaeng.sharepoint.com/:b:/s/Floorplans/IQDaM5EbVGQFS5xmiRWmnowgAf8fog_4XHdMna0cOyZ8mxk?e=DBV7Yq
 LJA Engineering,ATLA,3455 Peachtree Dr NE,Suite 500,33.84061813,-84.36342621,https://ljaeng.sharepoint.com/:b:/s/Floorplans/IQARpDc10jEnT7waAt1r1gyZASWCnoRJRQBDYfHuasxuc6k?e=6wX4lq
@@ -25,7 +25,7 @@ LJA Engineering,CORP,5350 South Staples St,Suite 425,27.70394205,-97.37171778,"h
 LJA Engineering,COSP,1125 Kelly Johnson Blvd,Suite 361,38.94877301,-104.8079882,"https://ljaeng.sharepoint.com/:b:/r/sites/Floorplans/Shared%20Documents/Colorado/ColoradoSprings,%20CO_(COSP)_1125KellyJohnsonBlvd.pdf?csf=1&web=1&e=E87cER"
 LJA Engineering,DALL,6060 North Central Expressway,Suite 400,32.8401489,-96.7756044,"https://ljaeng.sharepoint.com/:b:/r/sites/Floorplans/Shared%20Documents/Texas/Dallas,%20TX_(DALL)_6060NorthCentralExpy.pdf?csf=1&web=1&e=zBU6Jd"
 LJA Engineering,DEN2,4700 S Syracuse St,Suite 500,39.62724573,-104.8985111,"https://ljaeng.sharepoint.com/:b:/r/sites/Floorplans/Shared%20Documents/Colorado/Denver,%20CO_(DEN2)_4700SyracuseSt.pdf?csf=1&web=1&e=c6dbRl"
-Peters and Yaffee,DEN3,4582 S Ulster St,Suite 1320,39.63320778,-104.8988027,"https://ljaeng.sharepoint.com/:b:/r/sites/Floorplans/Shared%20Documents/Colorado/Denver,%20CO_(DEN3)_4582SouthUlsterSt.pdf?csf=1&web=1&e=gAvoTg"
+LJA Engineering,DEN3,4582 S Ulster St,Suite 1320,39.63320778,-104.8988027,"https://ljaeng.sharepoint.com/:b:/r/sites/Floorplans/Shared%20Documents/Colorado/Denver,%20CO_(DEN3)_4582SouthUlsterSt.pdf?csf=1&web=1&e=gAvoTg"
 LJA Engineering,EHOU,11821 East Freeway,Suite 360,29.774398,-95.230106,https://ljaeng.sharepoint.com/:b:/s/Floorplans/IQAfmcXHdOnlRolnAhHC_MO0AS5WWdZuqs4TIMxfb4VzNyU?e=NG80xW
 LJA Engineering,ELP2,601 N Mesa St,Suite 1440,31.76202886,-106.4902384,"https://ljaeng.sharepoint.com/:b:/r/sites/Floorplans/Shared%20Documents/Texas/ElPaso,%20TX_(ELP2)_601NMesaSt.pdf?csf=1&web=1&e=2cKmCC"
 The WLB Group,FLA2,403 N WC Riles,STE 1,35.20109784,-111.6455839,"https://ljaeng.sharepoint.com/:b:/r/sites/Floorplans/Shared%20Documents/Arizona/Flagstaff,%20AZ_(FLA2)_403NWCRiles.pdf?csf=1&web=1&e=hKmer4"
@@ -53,7 +53,7 @@ GSA,LOOS,2615 6th St,Suite 6,33.2079528,-87.57157983,"https://ljaeng.sharepoint.
 LJA Engineering,LOTT,128 S Tryon St,#1841,35.22712505,-80.84476632,"https://ljaeng.sharepoint.com/:b:/r/sites/Floorplans/Shared%20Documents/NorthCarolina/Charlotte,%20NC_(LOTT)_101NTryonSt.pdf?csf=1&web=1&e=hqHMk0"
 LJA Engineering,LOVE,2725 Rocky Mountain Ave,Suite 45,40.41990779,-105.0016851,"https://ljaeng.sharepoint.com/:b:/r/sites/Floorplans/Shared%20Documents/Colorado/Loveland,%20CO_(LOVE)_2725RockyMountainAve.pdf?csf=1&web=1&e=QCwfjX"
 LJA Engineering,LUB2,3907 98th St,#100,33.5052268,-101.8981497,"https://ljaeng.sharepoint.com/:b:/r/sites/Floorplans/Shared%20Documents/Texas/Lubbock,%20TX_(LUB2)_3907%263911.98thSt.pdf?csf=1&web=1&e=cLa54c"
-LJA Engineering,MCKI,2150 S. Central Expressway,Suite 300,33.18260332,-96.64183369,"https://ljaeng.sharepoint.com/:b:/r/sites/Floorplans/Shared%20Documents/Texas/Mckinney,%20TX_(MCKI)_2150SCentralExpy.pdf?csf=1&web=1&e=oecz1u"
+LJA Engineering,MCKI,2150 S. Central Expressway,Suite 300,33.18260332,96.64183369,"https://ljaeng.sharepoint.com/:b:/r/sites/Floorplans/Shared%20Documents/Texas/Mckinney,%20TX_(MCKI)_2150SCentralExpy.pdf?csf=1&web=1&e=oecz1u"
 BSE Consultants,MELB,312 S. Harbour City Blvd,Suite 4,28.10426864,-80.6155753,"https://ljaeng.sharepoint.com/:b:/r/sites/Floorplans/Shared%20Documents/Florida/Melbourne,%20FL_(MELB)_312SHarbourCityBlvd.pdf?csf=1&web=1&e=oN16W9"
 LJA Engineering,MIDL,6 Desta Drive,Suite 1800,32.03072941,-102.0856774,"https://ljaeng.sharepoint.com/:b:/r/sites/Floorplans/Shared%20Documents/Texas/Midland,%20TX_(MIDL)_6DestaDr.pdf?csf=1&web=1&e=CcpD01"
 LJA Engineering,MIRA,495 Grand Boulevard,Suite 206,,,X
@@ -64,7 +64,7 @@ David Plummer and Associates,MYE2,2149 McGregor Blvd,,26.63781769,-81.87598326,"
 LJA Engineering,NAPL,7400 Trail Blvd,Suite 200,26.2452498,-81.79967899,"https://ljaeng.sharepoint.com/:b:/r/sites/Floorplans/Shared%20Documents/Florida/Naples,%20FL_(NAPL)_7400TrailBlvd.pdf?csf=1&web=1&e=FpZOzZ"
 LJA Engineering,NASH,222 2nd Ave S,Suite 1700,36.15965845,-86.77331516,"https://ljaeng.sharepoint.com/:b:/r/sites/Floorplans/Shared%20Documents/Tennessee/Nashville,%20TN_(NASH)_222.2ndAveS.pdf?csf=1&web=1&e=fCN5mw"
 LJA Engineering,NEW2,401 Main Plaza,Suite 200,29.70279576,-98.12543386,"https://ljaeng.sharepoint.com/:b:/r/sites/Floorplans/Shared%20Documents/Texas/NewBraunfels,%20TX_(NEW2)_401MainSt.pdf?csf=1&web=1&e=cvVvIr"
-Donald W McIntosh Associates,ORL2,1950 Summit Park Dr,Suite 600,28.63759083,-81.40201063,"https://ljaeng.sharepoint.com/:b:/r/sites/Floorplans/Shared%20Documents/Florida/Orlando,%20FL_(ORL2)_1950SummitParkDr.pdf?csf=1&web=1&e=NPwfS7"
+Donald W McIntosh Associates,ORL2,1950 Summit Park Dr,Suite 600,28.63759083,81.40201063,"https://ljaeng.sharepoint.com/:b:/r/sites/Floorplans/Shared%20Documents/Florida/Orlando,%20FL_(ORL2)_1950SummitParkDr.pdf?csf=1&web=1&e=NPwfS7"
 LJA Engineering,PEA2,2011 E Broadway St,Suite 130,29.54950188,-95.24517177,"https://ljaeng.sharepoint.com/:b:/r/sites/Floorplans/Shared%20Documents/Texas/Pearland,%20TX_(PEA2)_2011EBroadway.pdf?csf=1&web=1&e=eUoHvg"
 LJA Engineering,PEN3,901 W Garden St,,30.41111658,-87.22747047,"https://ljaeng.sharepoint.com/:b:/r/sites/Floorplans/Shared%20Documents/Florida/Pensacola,%20FL_(PEN3)_901WGardenSt.pdf?csf=1&web=1&e=S2NwNm"
 LJA Engineering,PHOE,426 North 44th St,Suite 300,33.45330082,-111.9879539,"https://ljaeng.sharepoint.com/:b:/r/sites/Floorplans/Shared%20Documents/Arizona/Phoenix,%20AZ_(PHOE)_426North44thSt.pdf?csf=1&web=1&e=u12HCd"
@@ -76,6 +76,7 @@ LJA Engineering,ROUN,2700 La Frontera Blvd,Suite 200,30.4803333,-97.68573185,"ht
 LJA Engineering,SAN2,9830 Colonnade Blvd,Suite 300,29.53490328,-98.56254108,"https://ljaeng.sharepoint.com/:b:/r/sites/Floorplans/Shared%20Documents/Texas/SanAntonio,%20TX_(SAN2)_9830ColonnadeBlvd.pdf?csf=1&web=1&e=qV54ek"
 LJA Engineering,SAR2,6710 Professional Pkwy,Suite 301,27.38151944,-82.44198411,"https://ljaeng.sharepoint.com/:b:/r/sites/Floorplans/Shared%20Documents/Florida/Sarasota,%20FL_(SAR2)_6710ProfessionalPkwy.pdf?csf=1&web=1&e=nA6aEp"
 LJA Surveying,SIMP,107 Hillcrest Ave,,34.74309723,-82.25985036,"https://ljaeng.sharepoint.com/:b:/r/sites/Floorplans/Shared%20Documents/SouthCarolina/Simpsonville,%20SC_(SIMP)_107HillcrestAve.pdf?csf=1&web=1&e=wAwR0o"
+LJA Engineering,SWEE,,,,,X
 LJA Engineering,TAL3,1701 Hermitage Blvd,Suite 203,30.48764062,-84.24753825,"https://ljaeng.sharepoint.com/:b:/r/sites/Floorplans/Shared%20Documents/Florida/Tallahassee,%20FL_(TAL3)_1701HermitageBlvd.pdf?csf=1&web=1&e=hkWDbx"
 LJA Engineering,TAM2,12470 Telecom Drive,Suite 101E,28.0589623,-82.37871687,"https://ljaeng.sharepoint.com/:b:/r/sites/Floorplans/Shared%20Documents/Florida/TempleTerrace,%20FL_(TAM2)_12470TelecomDr.pdf?csf=1&web=1&e=kO5a8B"
 The WLB Group,TEMP,1600 W Broadway Rd,Suite 150,33.4081506,-111.9651975,"https://ljaeng.sharepoint.com/:b:/r/sites/Floorplans/Shared%20Documents/Arizona/Tempe,%20AZ_(TEMP)_1600WBroadwayRd.pdf?csf=1&web=1&e=UjQAcD"
@@ -85,10 +86,9 @@ The WLB Group,VEGA,3663 E. Sunset Rd,Suite 204,36.07101987,-115.0950749,"https:/
 LJA Engineering,VERO,1708 21st Street,,27.64027567,-80.40271619,"https://ljaeng.sharepoint.com/:b:/r/sites/Floorplans/Shared%20Documents/Florida/VeroBeach,%20FL_(VERO)_1708.21stSt.pdf?csf=1&web=1&e=ehgZps"
 LJA Engineering,WES2,1120 W 122nd Ave,Suite 105,39.91738542,-105.0004329,"https://ljaeng.sharepoint.com/:b:/r/sites/Floorplans/Shared%20Documents/Colorado/Westminster,%20CO_(WES2)_1120W.122ndAve.pdf?csf=1&web=1&e=Y0ebMP"
 LJA Engineering,WEST,1765 W 121st Ave,Suite 300,39.91761076,-105.0080684,"https://ljaeng.sharepoint.com/:b:/r/sites/Floorplans/Shared%20Documents/Colorado/Westminster,%20CO_(WEST)_1765W.121stAve.pdf?csf=1&web=1&e=eVqffQ"
-LJA Engineering,WIND,19 E. Candler St,Floor 2,33.99,-83.71977864,"https://ljaeng.sharepoint.com/:b:/r/sites/Floorplans/Shared%20Documents/Georgia/Winder,%20GA_(WIND)_19ECandlerSt.pdf?csf=1&web=1&e=0Ved1R"
+LJA Engineering,WIND,19 E. Candler St,Floor 2,33.99,83.71977864,"https://ljaeng.sharepoint.com/:b:/r/sites/Floorplans/Shared%20Documents/Georgia/Winder,%20GA_(WIND)_19ECandlerSt.pdf?csf=1&web=1&e=0Ved1R"
 LJA Engineering,WOO2,480 Wildwood Forest Dr,Suite 500,30.12362993,-95.44877201,"https://ljaeng.sharepoint.com/:b:/r/sites/Floorplans/Shared%20Documents/Texas/TheWoodlands,%20TX_(WOO2)_480WildwoodForestDr.pdf?csf=1&web=1&e=wRMbXo"
 CD&P,AUS9,2233 West North Loop Blvd,,30.32515481,-97.74229898,"https://ljaeng.sharepoint.com/:b:/r/sites/Floorplans/Shared%20Documents/Texas/Austin,%20TX_(AUS9)_2233WestNorthLoopBlvd.pdf?csf=1&web=1&e=PK6l8P"
-C E Group,RALE,301 Glenwood Ave,Suite 220,,,X
+C E Group,RALE,301 Glenwood Ave,Suite 220,X,X,X
 LJA Engineering,GRAN,480 W Park Dr,Suite 201,,,X
-CorePrint Solutions,HOU4,11116 W Little York Rd,Building 2,,,X
-
+CorePrint Solutions,HOU4,11116 W Little York Rd,Building 2,X,X,X
