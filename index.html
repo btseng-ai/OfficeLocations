@@ -100,9 +100,10 @@
       const iZipcode  = idx('Zipcode');
       const iLat    = idx('Lat');
       const iLng    = idx('Lng');
-      const iUrl    = idx('FloorplanURL');
+      const iFPUrl    = idx('FloorplanURL');
+      const iEPUrl    = idx('EmergencyPlanURL');
 
-      if ([iOffice,iAddr1,iCity,iState,iZipcode,iLat,iLng,iUrl].some(i => i === -1)) {
+      if ([iOffice,iAddr1,iCity,iState,iZipcode,iLat,iLng,iFPUrl,iEPUrl].some(i => i === -1)) {
         throw new Error('CSV headers do not match expected names. Found: ' + headers.join(' | '));
       }
 
@@ -119,7 +120,8 @@
         const zipcode= r[iZipcode]?.trim();
         const lat    = parseFloat(r[iLat]);
         const lng    = parseFloat(r[iLng]);
-        const url    = r[iUrl]?.trim();
+        const FloorplanURL    = r[iFPUrl]?.trim();
+        const EmergencyPlanURL    = r[iEPUrl]?.trim();  
 
         // skip bad rows
         if (!office || Number.isNaN(lat) || Number.isNaN(lng)) return;
@@ -133,7 +135,8 @@
             ${addr2 ? `${escapeHtml(addr2)}<br>` : ''}
             ${escapeHtml(city)}, ${escapeHtml(state)} ${escapeHtml(zipcode)}
           </a><br><br>
-          ${url ? `<a target="_blank" rel="noopener" href="${escapeHtml(url)}">Floor Plan</a>` : ''}
+          ${FloorplanURL ? `<a target="_blank" rel="noopener" href="${escapeHtml(FloorplanURL)}">Floor Plan</a>` : ''}<br>
+          ${EmergencyPlanURL ? `<a target="_blank" rel="noopener" href="${escapeHtml(EmergencyPlanURL)}">Emergency Plan</a>` : ''}
         `;
 
         L.marker([lat, lng]).addTo(map).bindPopup(popup);
