@@ -94,7 +94,6 @@
       const iLocation = idx('Location');
       const iOffice = idx('Office');
       const iAddr1  = idx('Address Line 1');
-      const iAddr2  = idx('Address Line 2');
       const iCity  = idx('City');
       const iState  = idx('State');
       const iZipcode  = idx('Zipcode');
@@ -102,7 +101,7 @@
       const iLng    = idx('Lng');
       const iUrl    = idx('FloorplanURL');
 
-      if ([iOffice,iAddr1,iAddr2,iCity,iState,iZipcode,iLat,iLng,iUrl].some(i => i === -1)) {
+      if ([iOffice,iAddr1,iCity,iState,iZipcode,iLat,iLng,iUrl].some(i => i === -1)) {
         throw new Error('CSV headers do not match expected names. Found: ' + headers.join(' | '));
       }
 
@@ -113,7 +112,6 @@
         const location = r[iLocation]?.trim();
         const office = r[iOffice]?.trim();
         const addr1  = r[iAddr1]?.trim();
-        const addr2  = r[iAddr2]?.trim();
         const city   = r[iCity]?.trim();
         const state  = r[iState]?.trim();
         const zipcode= r[iZipcode]?.trim();
@@ -123,16 +121,15 @@
 
         // skip bad rows
         if (!office || Number.isNaN(lat) || Number.isNaN(lng)) return;
-        const fullAddress = [addr1, addr2, city, state, zipcode].filter(Boolean).join(', ');
+        const fullAddress = [addr1, city, state, zipcode].filter(Boolean).join(', ');
         const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(fullAddress)}`;
         
         const popup = `
           <b>${escapeHtml(office)} - ${escapeHtml(location)}</b><br>
           <a href="${mapsUrl}" target="_blank" rel="noopener">
             ${escapeHtml(addr1)}<br>
-            ${escapeHtml(addr2)}<br>
             ${escapeHtml(city)}, ${escapeHtml(state)} ${escapeHtml(zipcode)}
-          </a><br>
+          </a><br><br>
           ${url ? `<a target="_blank" rel="noopener" href="${escapeHtml(url)}">Floor Plan</a>` : ''}
         `;
 
