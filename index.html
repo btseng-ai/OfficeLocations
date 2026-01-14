@@ -102,6 +102,7 @@
       const iLng    = idx('Lng');
       const iFPUrl    = idx('FloorplanURL');
       const iEPUrl    = idx('EmergencyPlanURL');
+      const iMatterportUrl   = idx('MatterportURL');
 
       if ([iOffice,iAddr1,iCity,iState,iZipcode,iLat,iLng,iFPUrl,iEPUrl].some(i => i === -1)) {
         throw new Error('CSV headers do not match expected names. Found: ' + headers.join(' | '));
@@ -121,7 +122,8 @@
         const lat    = parseFloat(r[iLat]);
         const lng    = parseFloat(r[iLng]);
         const FloorplanURL    = r[iFPUrl]?.trim();
-        const EmergencyPlanURL    = r[iEPUrl]?.trim();  
+        const EmergencyPlanURL    = r[iEPUrl]?.trim(); 
+        const MatterportURL   = r[iMatterportUrl]?.trim(); 
 
         // skip bad rows
         if (!office || Number.isNaN(lat) || Number.isNaN(lng)) return;
@@ -151,6 +153,7 @@
           </a><br><br>
           ${getPlanHtml(FloorplanURL, 'Floor Plan')}
           ${getPlanHtml(EmergencyPlanURL, 'Emergency Plan')}
+          ${getPlanHtml(MatterportURL, 'Matterport Tour')}
         `;
 
         L.marker([lat, lng]).addTo(map).bindPopup(popup);
